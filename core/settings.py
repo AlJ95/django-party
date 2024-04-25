@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'tailwind',
     'theme',
     'django_browser_reload',
+    'crispy_forms',
+    'crispy_bootstrap4',
     'party',
 ]
 
@@ -136,3 +138,5 @@ NPM_BIN_PATH = "C:/Program Files/nodejs/npm.cmd"
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"

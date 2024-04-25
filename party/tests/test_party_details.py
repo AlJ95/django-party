@@ -52,3 +52,4 @@ def test_party_detail_partial_put_method_returns_updated_party_details(authentic
     assert Party.objects.get(uuid=party.uuid).party_time == datetime.time(18, 0)
     assert Party.objects.get(uuid=party.uuid).venue == "New Venue"
     assert Party.objects.get(uuid=party.uuid).invitation == "New Bla bla"
+
